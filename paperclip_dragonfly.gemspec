@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
 
 
   s.add_dependency('dragonfly')
-  s.add_dependency('rails', '3.0.10')
+  s.add_dependency('rails')
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,features}/*`.split("\n")
